@@ -1,0 +1,28 @@
+# Core dependencies for QAOA postprocessing utilities
+# Python 3.9+
+
+# Quantum computing
+qiskit>=1.0.0
+qiskit-ibm-runtime>=0.20.0
+qiskit-aer>=0.13.0
+
+# Numerical and scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+networkx>=3.0
+
+# Graph optimization (optional but recommended)
+rustworkx>=0.13.0
+
+# Optimization solvers (optional)
+# gurobipy>=10.0.0  # Commercial solver, requires license
+
+# QAOA best practices (if available)
+# qopt-best-practices  # Install from source if available
+
+# Training pipeline (if using the training features)
+# qaoa-training-pipeline  # Install from source if available

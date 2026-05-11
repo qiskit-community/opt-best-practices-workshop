@@ -1,0 +1,36 @@
+<style>table {border-collapse: collapse; width: 100%;}th, td {border: 1px solid #ddd; padding: 6px; white-space: nowrap;}th {background: #f5f5f5;}</style><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variant</th>
+      <th>method</th>
+      <th>reference</th>
+      <th>expected_cut</th>
+      <th>best_cut</th>
+      <th>ar_expected</th>
+      <th>ar_best</th>
+      <th>num_support</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>baseline</td>
+      <td>HighProb + Greedy(1-flip) polish</td>
+      <td>Chancellor 2017 (hybrid local search with annealers)</td>
+      <td>36.27865</td>
+      <td>40.0</td>
+      <td>0.906966</td>
+      <td>1.0</td>
+      <td>1797</td>
+    </tr>
+    <tr>
+      <td>baseline</td>
+      <td>MQC-style multi-qubit correction + polish</td>
+      <td>Ayanzadeh et al. Sci Rep 11, 16119 (2021)</td>
+      <td>40.00000</td>
+      <td>40.0</td>
+      <td>1.000000</td>
+      <td>1.0</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>

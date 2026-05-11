@@ -1,0 +1,24 @@
+{
+  "postprocessing_suite": [
+    {
+      "variant": "baseline",
+      "method": "HighProb + Greedy(1-flip) polish",
+      "reference": "Chancellor 2017 (hybrid local search with annealers)",
+      "expected_cut": 36.278649548263516,
+      "best_cut": 40.0,
+      "ar_expected": 0.9069662387065879,
+      "ar_best": 1.0,
+      "num_support": 1797
+    },
+    {
+      "variant": "baseline",
+      "method": "MQC-style multi-qubit correction + polish",
+      "reference": "Ayanzadeh et al. Sci Rep 11, 16119 (2021)",
+      "expected_cut": 40.00000000000001,
+      "best_cut": 40.0,
+      "ar_expected": 1.0000000000000002,
+      "ar_best": 1.0,
+      "num_support": 10
+    }
+  ]
+}

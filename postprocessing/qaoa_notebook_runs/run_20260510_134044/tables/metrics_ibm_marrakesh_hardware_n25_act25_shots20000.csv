@@ -1,0 +1,2 @@
+variant,depth,width,ops,n_1q,n_2q,n_swap,n_delay,n_meas,n_barrier
+baseline,120,156,"{'sx': 800, 'rz': 589, 'cz': 362, 'x': 26, 'measure': 25, 'barrier': 1}",1415,362,0,0,25,1

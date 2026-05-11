@@ -1,0 +1,42 @@
+{
+  "summaries": [
+    {
+      "variant": "baseline",
+      "n": 25,
+      "classical_opt": 40.0,
+      "mode_bitstring": "0100010111011010110001010",
+      "mode_prob": 0.00015,
+      "mode_cut": 38.0,
+      "best_bitstring": "1101010101101110010110000",
+      "best_prob": 0.0001,
+      "best_cut": 40.0,
+      "expected_cut": 30.622699999999394,
+      "ar_best": 1.0,
+      "ar_expected": 0.7655674999999849,
+      "num_support": 19897,
+      "kept_policy": null
+    },
+    {
+      "variant": "baseline_selected",
+      "n": 25,
+      "classical_opt": 40.0,
+      "mode_bitstring": "0100010111011010110001010",
+      "mode_prob": 0.001426533523537849,
+      "mode_cut": 38.0,
+      "best_bitstring": "1101010101101110010110000",
+      "best_prob": 0.0009510223490252328,
+      "best_cut": 40.0,
+      "expected_cut": 31.04707560627749,
+      "ar_best": 1.0,
+      "ar_expected": 0.7761768901569372,
+      "num_support": 2000,
+      "kept_policy": {
+        "mass_raw": 0.10514999999999661,
+        "method": "mass",
+        "mass_keep": 0.9,
+        "prob_threshold": null,
+        "k_max": 2000
+      }
+    }
+  ]
+}
